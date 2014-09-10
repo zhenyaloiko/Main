@@ -12,8 +12,9 @@
 {
 	height: 200px;
 	width: 317px;
-	margin: 0 auto;
-	position: relative;
+	position: fixed;
+	top: 35%;
+	left: 35%;
 	z-index: 2;
 	display: none;
 	background-color: #CCFF99;
@@ -51,4 +52,7 @@
 	font-weight: bold;
 	border: 1px solid #000000;
 	border-radius: 2px;
+}
+ .page_content {
+	padding: 50px 50px;
 }
